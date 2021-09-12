@@ -9,11 +9,13 @@ A proxy container for ACS deployment with Alfresco Digital Workspace and Sync Se
 | REPO_URL | `http://alfresco:8080` | Repository URL inside network. |
 | ADW_URL | `http://digital-workspace` | Digital Workspace URL inside network. |
 | SHARE_URL | `http://share:8080` | Share URL inside network. |
+| ACA_URL | `http://content-app:8080` | ACA URL inside network. |
 | SYNCSERVICE_URL | `http://sync-service:9090` | Sync service URL inside network. |
 | DISABLE_ADW | `false` | Disables ADW if set to `"true"` |
 | DISABLE_SHARE | `false` | Disables Share if set to `"true"` |
 | DISABLE_SYNCSERVICE | `false` | Disables Sync Service if set to `"true"` |
 | DISABLE_PROMETHEUS | `false` | Disables Prometheus if set to `"true"` |
+| DISABLE_ACA | `false` | Disables ACA if set to `"true"` |
 | ACCESS_LOG | n/a | Set the `access_log` value. Set to `off` to switch off logging. |
 | USE_SSL | `false` | Enables ssl use if set to `"true"` |
 | DOMAIN | n/a | Set domain value for ssl certificate |
